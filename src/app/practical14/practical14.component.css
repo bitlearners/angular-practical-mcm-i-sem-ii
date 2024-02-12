@@ -21,7 +21,8 @@
 }
 
 .custom-form-check-input {
-  margin-right: 8px;
+  margin:  0 8px 0 8px;
+
 }
 
 .custom-form-check-label {
@@ -42,11 +43,23 @@
 
 .custom-div {
   height: 60px;
-  background-color: #007bff;
+
   color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.bg-green{
+  background-color: #016A70;
+}
+
+.bg-lightred{
+  background-color: #E78895;
+}
+
+.bg-purple{
+  background-color: #864AF9;
 }
 
 .custom-align-items-center {
