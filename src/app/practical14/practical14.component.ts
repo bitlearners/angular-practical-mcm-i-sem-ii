@@ -1,4 +1,3 @@
-// practical14.component.ts
 import { Component } from '@angular/core';
 
 @Component({

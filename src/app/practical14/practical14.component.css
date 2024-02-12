@@ -1,0 +1,58 @@
+.custom-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.custom-mt-2 {
+  margin-top: 20px;
+}
+
+.custom-text-center {
+  text-align: center;
+}
+
+.custom-mb-4 {
+  margin-bottom: 40px;
+}
+
+.custom-form-check {
+  display: flex;
+  align-items: center;
+}
+
+.custom-form-check-input {
+  margin-right: 8px;
+}
+
+.custom-form-check-label {
+  margin: 0;
+}
+
+.custom-mb-3 {
+  margin-bottom: 30px;
+}
+
+.custom-mt-3 {
+  margin-top: 30px;
+}
+
+.custom-hidden {
+  display: none;
+}
+
+.custom-div {
+  height: 60px;
+  background-color: #007bff;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-align-items-center {
+  align-items: center;
+}
+
+.custom-m-1 {
+  margin: 10px;
+}

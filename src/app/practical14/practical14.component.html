@@ -1,13 +1,12 @@
-<div class="container mt-2">
-  <h2 class="text-center mb-4">Practical 14 - Hide Div by Adding Checkbox</h2>
+<div class="custom-container custom-mt-2">
+  <h2 class="custom-text-center custom-mb-4">Practical 14 - Hide Div by Adding Checkbox</h2>
 
-        <div class="form-check mb-3">
-          <input class="form-check-input" type="checkbox" (change)="toggleDivVisibility()">
-          <h5 class="form-check-label">Hide Div</h5>
-        </div>
-        <div class="mt-3" *ngIf="!hideDiv">
-          <div class="align-items-center m-1" style="height: 60px;">Div First</div>
-        </div>
+  <div class="custom-form-check custom-mb-3">
+    <input class="custom-form-check-input" type="checkbox" (change)="toggleDivVisibility()">
+    <h5 class="custom-form-check-label">Hide Div</h5>
+  </div>
 
-      </div>
-
+  <div class="custom-mt-3" [ngClass]="{'custom-hidden': hideDiv}">
+    <div class="custom-div custom-align-items-center custom-m-1">Div First</div>
+  </div>
+</div>
