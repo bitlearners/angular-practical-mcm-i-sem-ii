@@ -6,10 +6,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { Practical1Component } from './practical1/practical1.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { Practical14Component } from './practical14/practical14.component';
+import { NavbarComponent } from './navbar/navbar.component';
 @NgModule({
   declarations: [
     AppComponent,
-    Practical1Component
+    Practical1Component,
+    Practical14Component,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
